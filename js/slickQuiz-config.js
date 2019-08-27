@@ -26,7 +26,7 @@ var quizJSON = {
             "a": [{"option": "Discordo Plenamente",      "correct": true},{"option": "Discordo",     "correct": true}, {"option": "Neutro",      "correct": true}, {"option": "Concordo",     "correct": true}, {"option": "Concordo Plenamente",     "correct": true}], "select_any": true, "correct": "<p><span>Clique no botão para continuar...</span></p>", "incorrect": "<p><span>Clique no botão para continuar...</span></p>"  },
             {"q": "É válido que as pessoas manifestem toda e qualquer opinião, mesmo que sejam opiniões intolerantes.",
             "a": [{"option": "Discordo Plenamente",      "correct": true},{"option": "Discordo",     "correct": true}, {"option": "Neutro", "correct": true}, {"option": "Concordo",     "correct": true}, {"option": "Concordo Plenamente",     "correct": true}], "select_any": true, "correct": "<p><span>Clique no botão para continuar...</span></p>", "incorrect": "<p><span>Clique no botão para continuar...</span></p>"  }
-            /*
+            ,
             {"q": "É válido que as pessoas manifestem toda e qualquer opinião, mesmo que sejam opiniões que incentivem a violência a um grupo ou a uma etnia.",
             "a": [{"option": "Discordo Plenamente",      "correct": true},{"option": "Discordo",     "correct": true}, {"option": "Neutro",      "correct": true}, {"option": "Concordo",     "correct": true}, {"option": "Concordo Plenamente",     "correct": true}], "select_any": true, "correct": "<p><span>Clique no botão para continuar...</span></p>", "incorrect": "<p><span>Clique no botão para continuar...</span></p>"  },
             {"q": "Jornais e revistas devem ser imparciais e não mostrar suas opiniões politicas.",
