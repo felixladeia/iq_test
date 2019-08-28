@@ -38,7 +38,7 @@ var finalScore = 0;
                 disableScore: false,
                 disableRanking: false,
                 scoreAsPercentage: false,
-                perQuestionResponseMessaging: true,
+                perQuestionResponseMessaging: false,
                 perQuestionResponseAnswers: false,
                 completionResponseMessaging: false,
                 displayQuestionCount: true,   // Deprecate?
