@@ -1,14 +1,4 @@
-/*!
- * SlickQuiz jQuery Plugin
- * http://github.com/jewlofthelotus/SlickQuiz
- *
- * @updated October 25, 2014
- * @version 1.5.20
- *
- * @author Julie Cameron - http://www.juliecameron.com
- * @copyright (c) 2013 Quicken Loans - http://www.quickenloans.com
- * @license MIT
- */
+
 
 var finalScore = 0;
 
@@ -215,7 +205,7 @@ var finalScore = 0;
 
                 // add retry button to results view, if enabled
                 if (plugin.config.tryAgainText && plugin.config.tryAgainText !== '') {
-                    $quizResultsCopy.append('<p><a class="button ' + tryAgainClass + '" href="#">' + plugin.config.tryAgainText + '</a></p>');
+                    $quizResultsCopy.append('<p><a class="btn btn-info btg-lg ' + tryAgainClass + '" href="#">' + plugin.config.tryAgainText + '</a></p>');
                 }
 
                 // Setup questions
