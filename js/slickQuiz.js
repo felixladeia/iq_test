@@ -222,7 +222,7 @@ var finalScore = 0;
                 var quiz  = $('<ol class="' + questionGroupClass + '"></ol>'),
                     count = 1;
 
-                
+
 
                 // Loop through questions object
                 for (i in questions) {
@@ -312,7 +312,7 @@ var finalScore = 0;
 
                         // Appends check answer / back / next question buttons
                         if (plugin.config.backButtonText && plugin.config.backButtonText !== '') {
-                            questionHTML.append('<a href="#" class="button ' + backToQuestionClass + '">' + plugin.config.backButtonText + '</a>');
+                            questionHTML.append('<a href="#" class="btn btn-info btg-lg ' + backToQuestionClass + '">' + plugin.config.backButtonText + '</a>');
                         }
 
                         var nextText = plugin.config.nextQuestionText;
@@ -322,10 +322,10 @@ var finalScore = 0;
 
                         // If we're not showing responses per question, show next question button and make it check the answer too
                         if (!plugin.config.perQuestionResponseMessaging) {
-                            questionHTML.append('<a href="#" class="button ' + nextQuestionClass + ' ' + checkAnswerClass + '">' + nextText + '</a>');
+                            questionHTML.append('<a href="#" class="btn btn-info btg-lg ' + nextQuestionClass + ' ' + checkAnswerClass + '">' + nextText + '</a>');
                         } else {
-                            questionHTML.append('<a href="#" class="button ' + nextQuestionClass + '">' + nextText + '</a>');
-                            questionHTML.append('<a href="#" class="button ' + checkAnswerClass + '">' + plugin.config.checkAnswerText + '</a>');
+                            questionHTML.append('<a href="#" class="btn btn-info btg-lg ' + nextQuestionClass + '">' + nextText + '</a>');
+                            questionHTML.append('<a href="#" class="btn btn-info btg-lg ' + checkAnswerClass + '">' + plugin.config.checkAnswerText + '</a>');
                         }
 
                         // Append question & answers to quiz
