@@ -34,7 +34,7 @@ var finalScore = 0;
                 numberOfQuestions: null,
                 randomSortQuestions: false,
                 randomSortAnswers: false,
-                preventUnanswered: false,
+                preventUnanswered: true,
                 disableScore: false,
                 disableRanking: false,
                 scoreAsPercentage: false,
@@ -55,7 +55,8 @@ var finalScore = 0;
                 events: {
                     onStartQuiz: function (options) {},
                     onCompleteQuiz: function (options) {}  // reserved: options.questionCount, options.score
-                }
+                },
+                displayDescriptionAfterStart: true
             },
 
             // Class Name Strings (Used for building quiz and for selectors)
@@ -220,6 +221,8 @@ var finalScore = 0;
                 // Setup questions
                 var quiz  = $('<ol class="' + questionGroupClass + '"></ol>'),
                     count = 1;
+
+                
 
                 // Loop through questions object
                 for (i in questions) {
